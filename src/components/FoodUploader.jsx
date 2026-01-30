@@ -240,7 +240,6 @@ Guidelines:
                     ref={fileInputRef}
                     type="file"
                     accept="image/*"
-                    capture="environment"
                     className="hidden-input"
                     onChange={handleFileChange}
                   />

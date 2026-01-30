@@ -42,6 +42,7 @@
 
 .content-area {
     /* padding: 2rem; */
+    padding: 5px;
 }
 
 /* Upload Box */
@@ -98,8 +99,9 @@
     position: relative;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.1); */
     margin-bottom: 1.5rem;
+    padding: 10px;
 }
 
 .preview-image {
@@ -107,12 +109,13 @@
     height: 300px;
     object-fit: cover;
     display: block;
+    border-radius: 16px;
 }
 
 .remove-btn {
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 15px;
+    right: 15px;
     background: rgba(0, 0, 0, 0.6);
     color: white;
     border: none;
