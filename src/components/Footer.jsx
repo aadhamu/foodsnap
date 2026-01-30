@@ -20,10 +20,10 @@ function Footer() {
   ];
 
   const legalLinks = [
-    { label: "Privacy Policy", path: "/privacy" },
-    { label: "Terms of Service", path: "/terms" },
-    { label: "Cookie Policy", path: "/cookies" },
-    { label: "Disclaimer", path: "/disclaimer" }
+    { label: "Privacy Policy", path: "/PrivacyPolicy" },
+    { label: "Terms of Service", path: "/TermsOfService" },
+    { label: "Cookie Policy", path: "/CookiePolicy" },
+    { label: "Disclaimer", path: "/Disclaimer" }
   ];
 
   return (
@@ -212,7 +212,7 @@ function Footer() {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span style={{ color: '#4b5563', fontSize: '0.875rem' }}>hello@foodsnap.ai</span>
+                <span style={{ color: '#4b5563', fontSize: '0.875rem' }}>balaaadhamu45@gmail.com</span>
               </li>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}>
                 <svg 
